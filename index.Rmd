@@ -295,6 +295,16 @@ class: middle, inverse
 <iframe src="https://blog.djnavarro.net/posts/git-credential-helpers/" width="100%" height="100%"></iframe>
 
 
+---
+
+
+class: middle, inverse
+<a href="https://art.djnavarro.net">
+<img src="img/art.png" width="100%">
+</a>
+https://art.djnavarro.net
+
+
 
 ---
 
