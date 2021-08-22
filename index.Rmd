@@ -1,7 +1,7 @@
 ---
-title: "> &nbsp;&nbsp; `r emo::ji('heart')` <br>> &nbsp;&nbsp; Slide title in sentence case"
+title: "&nbsp;> &nbsp;&nbsp; <br>&nbsp;> &nbsp;&nbsp; <b>Researchers need data science</b><br>&nbsp;> &nbsp;&nbsp; <b> more than we realise</b><br>&nbsp;>"
 subtitle: ""
-author: "<br><br><b>Danielle Navarro</b>"
+author: "<br><br><b>Danielle Navarro</b><br><span style='color:#666'>UNSW Psychology<br>UNSW Data Science</span>"
 date: ""
 output:
   xaringan::moon_reader:
@@ -36,13 +36,13 @@ library(metathis)
 ```{r meta, echo=FALSE}
 meta() %>%
   meta_general(
-    description = "A brief description of the slides",
+    description = "An idiosyncratic journey from mathematical psychology to data science",
   ) %>% 
   meta_name("github-repo" = "djnavarro/slides") %>% 
   meta_social(
-    title = "Slide title",
-    url = "https://slides.djnavarro.net/SLIDES-NAME",
-    image = "https://slides.djnavarro.net/SLIDES-NAME/img/twitter-image.png",
+    title = "Researchers need data science",
+    url = "https://djnavarro.net/slides-shaping-ds-future",
+    image = "https://slides.djnavarro.net/slides-shaping-ds-future/img/twitter-image.png",
     image_alt = "",
     og_type = "website",
     og_author = "Danielle Navarro",
@@ -53,123 +53,261 @@ meta() %>%
 
 
 
-class: middle, inverse
-
-## What are we going to cover?
-
-- Topic
-- Topic
-- Topic
-
-<!----------------------------- SLIDE BREAK ----------------------------->
----
-
-class: middle, inverse
-
-## What is the assumed knowledge?
-
-- This is an introductory unit
-- Contains almost no programming content at all
-- Edit this list as needed
-
-
-<!----------------------------- SLIDE BREAK ----------------------------->
----
-
-class: middle, inverse
-
-## Where can I find the resources?
-
-- These slides: [slides.djnavarro.net/SLIDES-NAME](https://slides.djnavarro.net/SLIDES-NAME)
-- YouTube videos: [youtube.djnavarro.net/SLIDES-NAME](https://youtube.djnavarro.net/SLIDES-NAME)
-
-
-
-<!----------------------------- SLIDE BREAK ----------------------------->
----
-
-class: middle
-
 ```{r echo=FALSE, results='asis'}
-cat(create_section(
-  title = "Section"
-))
-```
-
-
-<!----------------------------- SLIDE BREAK ----------------------------->
----
-
-class: middle, inverse
-
-```{r echo=FALSE, results='asis'}
-cat(create_section(
-  title = "Another section",
-  shade = "#ffffff"
-))
-```
-
-
-<!----------------------------- SLIDE BREAK ----------------------------->
----
-
-class: middle, inverse
-
-```{r echo=FALSE, results='asis'}
-cat(create_section(
-  title = "One last section",
+cat(create_unnumbered_section(
+  title = " > <br> > <br> > gh::gh_whoami() ", 
   shade = "#ffffff",
-  image = "img/faint-hearts.png"
+  image = "img/watercolour_sys01_img31_seed4.png"
 ))
 ```
 
 
 
+<!----------------------------- SLIDE BREAK ----------------------------->
+---
+
+class: inverse, middle
+
+<a href="https://djnavarro.net">
+<img src="img/website_academic.png" width="100%">
+</a>
+https://djnavarro.net
 
 <!----------------------------- SLIDE BREAK ----------------------------->
 ---
 
-class: middle
 
 
-.hand[Text in the hand-written style]
 
-- Content
-- Content
-- Content
+class: middle, inverse
 
+<p align="center"><img src="img/aboutme.png" width="90%"></p>
 
-<!----------------------------- SLIDE BREAK ----------------------------->
 ---
 
-class: inverse
 
-.hand[A slide with flair]
-
-```{r filenames, include=FALSE, results='hide'}
-"analysis01_descriptive-statistics.R"
-"analysis02_preregistered-analysis.R"
-"notes01_realising-the-problem.txt"
-"analysis03_departing-from-the-plan.R"
-"notes02_tentative-write-up.docx"
-```
-
-```{r, echo=FALSE, results='asis'}
-decorate_chunk("filenames") %>% 
-  flair_rx("_[^.]*") %>% 
-  flair::knit_print.with_flair()
+```{r echo=FALSE, results='asis'}
+cat(create_unnumbered_section(
+  title = " > <br> > <br> > psych::outlier()", 
+  shade = "#ffffff",
+  image = "img/watercolour_sys01_img34_seed4.png"
+))
 ```
 
 
 
-<!----------------------------- SLIDE BREAK ----------------------------->
 ---
 
-class: middle
 
-background-image: url("img/faint-hearts.png")
+background-image: url("img/fakurian-design-58Z17lnVS4U-unsplash.jpg")
 background-size: cover
 
-.hand[.plainwhite[... and we're done! `r emo::ji('heart')`]]
+.hand[.large[The mind as a probabilistic learning machine]]
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/2017_noneoftheabove.pdf" width="100%" height="100%"></iframe>
+
+
+---
+
+class: middle
+
+<p align="center"><img src="img/psyc_stimuli.png" width="70%"></p>
+
+
+---
+
+class: middle
+
+<p align="center"><img src="img/psyc_data.png" width="70%"></p>
+
+
+
+---
+
+class: middle
+
+<p align="center"><img src="img/psyc_proof.png" width="70%"></p>
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/2009_firstpassage.pdf" width="100%" height="100%"></iframe>
+
+
+---
+
+class: middle
+
+<p align="center"><img src="img/psyc_methods.png" width="70%"></p>
+
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/2019_swow.pdf" width="100%" height="100%"></iframe>
+
+
+---
+
+class: middle
+
+<iframe src="https://smallworldofwords.org/en/project/visualize" width="100%" height="100%"></iframe>
+
+
+
+
+
+
+<!----------------------------- SLIDE BREAK ----------------------------->
+---
+
+
+```{r echo=FALSE, results='asis'}
+cat(create_unnumbered_section(
+  title = " > <br> > <br> > stats::effects()", 
+  shade = "#ffffff",
+  image = "img/watercolour_sys01_img39_seed4.png"
+))
+```
+
+
+
+---
+
+
+background-image: url("img/christopher-sardegna-CMOa3H1SXG0-unsplash.jpg")
+background-size: cover
+
+.hand[.large[What problem are we addressing?]]
+
+
+---
+
+class: middle, inverse
+
+.large[.embolden["Estimating the future performance of a model with regards to data collected via unknowable experiments is likely impossible"]]
+
+
+---
+
+class: middle, inverse
+
+
+.large[.embolden["Our theoretical models are defined with respect to simplified 'toy worlds'; humans, however, must occupy the real one"]]
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/2019_devildeepbluesea.pdf" width="100%" height="100%"></iframe>
+
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/2021_formalopenscience.pdf" width="100%" height="100%"></iframe>
+
+  
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://djnavarro.net/papers/preprint_shepard.pdf" width="100%" height="100%"></iframe>
+
+  
+
+
+
+<!----------------------------- SLIDE BREAK ----------------------------->
+---
+
+
+```{r echo=FALSE, results='asis'}
+cat(create_unnumbered_section(
+  title = " > <br> > <br> > devtools::build()", 
+  shade = "#ffffff",
+  image = "img/watercolour_sys01_img33_seed4.png"
+))
+```
+
+
+
+---
+
+class: middle
+
+<p align="center"><img src="img/psyc_code.png" width="70%"></p>
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://learningstatisticswithr.com" width="100%" height="100%"></iframe>
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://slides.djnavarro.net" width="100%" height="100%"></iframe>
+
+
+---
+
+class: middle, inverse
+
+<a href="https://youtube. djnavarro.net">
+<img src="img/youtube.png" width="100%">
+</a>
+https://youtube.djnavarro.net
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://blog.djnavarro.net/posts/pretty-little-clis/" width="100%" height="100%"></iframe>
+
+
+
+---
+
+class: middle, inverse
+
+<iframe src="https://blog.djnavarro.net/posts/git-credential-helpers/" width="100%" height="100%"></iframe>
+
+
+
+
+
+
+
+
+<!----------------------------- SLIDE BREAK ----------------------------->
+---
+
+
+
+```{r echo=FALSE, results='asis'}
+cat(create_unnumbered_section(
+  title = " > <br> > <br> > thank you for listening! <br> > @djnavarro",
+  shade = "#ffffff",
+  image = "img/watercolour_sys01_img41_seed4.png"
+))
+```
 
 

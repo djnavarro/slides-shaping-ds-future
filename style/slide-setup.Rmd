@@ -60,6 +60,26 @@ create_section <- function(title = " ", shade = NULL, image = NULL, lines = 2) {
   return(msg)
 }
 
+# define the create_section function
+create_unnumbered_section <- function(title = " ", shade = NULL, image = NULL, lines = 1) {
+  
+  msg <- ""
+  
+  if(!is.null(image)) {
+    msg <- c(msg, paste0('<!-- background-image: url("', image, '") -->'))
+    msg <- c(msg, '<!-- background-size: cover -->')
+  }
+  
+  msg <- c(msg, '.pull-left[')
+  msg <- c(msg, '  ', paste0(rep("<br>", lines), collapse = ""))
+  msg <- c(msg, paste0('  <div class = "large embolden primary fancy">', shade(title, shade), '</div>'))
+  msg <- c(msg, ']')  
+  
+  return(msg)
+}
+
+
+
 # set seed
 set.seed(1234)
 ```
@@ -67,9 +87,9 @@ set.seed(1234)
 layout: true
   
 <div class="my-footer">
-<span>
-  <a href="https://slides.djnavarro.net" target="_blank">slides.djnavarro.net</a>
-</span>
+<!-- <span>
+  <a href="https://djnavarro.net/slides-shaping-ds-future" target="_blank">djnavarro.net/slides-shaping-ds-future</a>
+</span> -->
 </div> 
 
 ---
