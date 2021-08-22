@@ -187,7 +187,7 @@ cat(create_unnumbered_section(
 background-image: url("img/christopher-sardegna-CMOa3H1SXG0-unsplash.jpg")
 background-size: cover
 
-.hand[.large[What problem are we addressing?]]
+.hand[.large[What problem are we solving?]]
 
 
 ---
@@ -254,6 +254,15 @@ cat(create_unnumbered_section(
 class: middle
 
 <p align="center"><img src="img/psyc_code.png" width="70%"></p>
+
+
+---
+
+
+background-image: url("img/julie-molliver-Z3vFp7szCAY-unsplash.jpg")
+background-size: cover
+
+.hand[.large[How do we make our work usable?]]
 
 
 ---
