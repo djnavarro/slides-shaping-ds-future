@@ -300,6 +300,17 @@ class: middle, inverse
 
 ---
 
+class: middle, inverse
+
+
+.large[.embolden[Art can be a welcoming bridge for learners and users to engage with and learn tools and skills in R. As RStudio’s first Artist-in-Residence, my goal has been to make the R landscape more welcoming for a broader community of users through engaging, didactic artwork]]
+
+Allison Horst, [rstudio::conf talk](https://www.rstudio.com/resources/rstudioglobal-2021/art-lessons-one-year-as-rstudios-artist-in-residence/)
+
+
+
+---
+
 
 class: middle, inverse
 <a href="https://art.djnavarro.net">
@@ -308,15 +319,6 @@ class: middle, inverse
 https://art.djnavarro.net
 
 
-
----
-
-class: middle, inverse
-
-
-.large[.embolden[Art can be a welcoming bridge for learners and users to engage with and learn tools and skills in R. As RStudio’s first Artist-in-Residence, my goal has been to make the R landscape more welcoming for a broader community of users through engaging, didactic artwork]]
-
-Allison Horst, [rstudio::conf talk](https://www.rstudio.com/resources/rstudioglobal-2021/art-lessons-one-year-as-rstudios-artist-in-residence/)
 
 
 ---
