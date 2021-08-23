@@ -42,7 +42,7 @@ meta() %>%
   meta_social(
     title = "!!meaningful_title",
     url = "https://djnavarro.net/slides-shaping-ds-future",
-    image = "https://slides.djnavarro.net/slides-shaping-ds-future/img/twitter-image.png",
+    image = "https://djnavarro.net/slides-shaping-ds-future/img/twitter-image.png",
     image_alt = "",
     og_type = "website",
     og_author = "Danielle Navarro",
