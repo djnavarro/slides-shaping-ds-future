@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;> &nbsp;&nbsp; <br>&nbsp;> &nbsp;&nbsp; <b>Researchers need data science</b><br>&nbsp;> &nbsp;&nbsp; <b> more than we realise</b><br>&nbsp;>"
+title: "&nbsp;> &nbsp;&nbsp; <br>&nbsp;> &nbsp;&nbsp; <b>!!meaningful_title</b><br>&nbsp;> <br>&nbsp;>"
 subtitle: ""
 author: "<br><br><b>Danielle Navarro</b><br><span style='color:#666'>UNSW Psychology<br>UNSW Data Science</span>"
 date: ""
@@ -40,7 +40,7 @@ meta() %>%
   ) %>% 
   meta_name("github-repo" = "djnavarro/slides") %>% 
   meta_social(
-    title = "Researchers need data science",
+    title = "!!meaningful_title",
     url = "https://djnavarro.net/slides-shaping-ds-future",
     image = "https://slides.djnavarro.net/slides-shaping-ds-future/img/twitter-image.png",
     image_alt = "",
