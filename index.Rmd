@@ -190,23 +190,6 @@ background-size: cover
 .hand[.large[What problem are we solving?]]
 
 
----
-
-class: middle, inverse
-
-.large[.embolden[Estimating the future performance of a model with regards to data collected via unknowable experiments is likely impossible]]
-
-<span style="color:#666">Navarro, 2019</span>
-
----
-
-class: middle, inverse
-
-
-.large[.embolden[Our theoretical models are defined with respect to simplified 'toy worlds'; humans, however, must occupy the real one]]
-
-<span style="color:#666">Navarro, 2021</span>
-
 
 ---
 
@@ -233,6 +216,25 @@ class: middle, inverse
 
   
 
+
+
+
+---
+
+class: middle, inverse
+
+.large[.embolden[Estimating the future performance of a model with regards to data collected via unknowable experiments is likely impossible]]
+
+<span style="color:#666">Navarro, 2019</span>
+
+---
+
+class: middle, inverse
+
+
+.large[.embolden[Our theoretical models are defined with respect to simplified 'toy worlds'; humans, however, must occupy the real one]]
+
+<span style="color:#666">Navarro, 2021</span>
 
 
 <!----------------------------- SLIDE BREAK ----------------------------->
@@ -294,14 +296,6 @@ https://youtube.djnavarro.net
 class: middle, inverse
 
 <iframe src="https://blog.djnavarro.net/posts/pretty-little-clis/" width="100%" height="100%"></iframe>
-
-
-
----
-
-class: middle, inverse
-
-<iframe src="https://blog.djnavarro.net/posts/git-credential-helpers/" width="100%" height="100%"></iframe>
 
 
 ---
